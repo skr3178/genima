@@ -165,7 +165,7 @@ cd render
 python render_data.py \
      episodes=25 \
      dataset_root=/tmp/train_data \
-     textures_path=./mil_textures/object_textures \
+     textures_path=textures/obj_textures  \
      action_horizon=20 \
      num_processes=5
 ```
